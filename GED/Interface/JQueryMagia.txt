@@ -1,0 +1,8 @@
+$(document).ready(function(){
+    $('.pull-me').mouseenter(function(){
+        $('.panel').slideToggle('slow');
+        });
+    ('.pull-me').mouseleave(function(){
+        $('.panel').slideToggle('slow');
+        });
+    });
